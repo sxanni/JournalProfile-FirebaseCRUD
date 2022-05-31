@@ -4,22 +4,18 @@ Working example:
 
 ## Steps to implement by your own
 
-### Create your Github Pages
+### Create your FireBase project
 ___
 
-1) Create repo [github_username].github.io.
+1) Run command `firebase login` it will prompt a google login
 
-2) Clone it.
+2) initaite your project run this command from your app's root dierctory `firebase init`
 
-3) Create files index.html main.js main.css.
+3) when you're ready, deploy your web app with this command `firebase deploy`
 
-4) Add minimal markup into index.html.
+4) after deploying you will see your app at [projectName].web.app
 
-5) Push to repo.
-
-6) Open https://[github_username].github.io.
-
-7) You have your own website.
+5) Done ✅
 
 ### Connect Firebase
 ___
@@ -30,7 +26,12 @@ ___
 
 3) Disable authorization / add github pages domain to list of allowed domains [github_username].github.io.
 
-4) Add firebase script to index.html according to "Add Firebase to your web app".
+4) Add firebase script to index.html according to 
+[Add Firebase to your web app](https://firebase.google.com/docs/web/setup#register-app "Add Firebase to your web app").
+
+5) Enable Realtime Database on the [Firebase console](https://console.firebase.google.com "Firebase console").
+
+
 
 ```
 // index.html
