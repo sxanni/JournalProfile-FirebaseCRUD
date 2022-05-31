@@ -1,8 +1,12 @@
 var config = {
-  apiKey: "AIzaSyDdxJ-9KHYzhzHwY4GvvGTygvYSTtnQlew",
-  authDomain: "test-850df.firebaseapp.com",
-  databaseURL: "https://test-850df.firebaseio.com",
-  storageBucket: "",
+  apiKey: "AIzaSyDJFBVLuUH5ye3BS05-V254VzoBwoN_nqs",
+  authDomain: "cruddemo-25369.firebaseapp.com",
+  databaseURL: "https://cruddemo-25369-default-rtdb.firebaseio.com",
+  projectId: "cruddemo-25369",
+  storageBucket: "cruddemo-25369.appspot.com",
+  messagingSenderId: "887636253677",
+  appId: "1:887636253677:web:020109f04deb8f835aa5e4"
+
 };
 
 firebase.initializeApp(config);
