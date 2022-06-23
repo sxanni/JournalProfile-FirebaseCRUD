@@ -9,18 +9,40 @@
     <body>
       <div class='container'>
         <div class='header'>
-          <img src="https://avatars.githubusercontent.com/u/56084381?v=4" alt="">
-          <h1>Dor Zairi</h1>
-          <h4>Full Stack Developer 🚀</h4>
+          <img src="img/lamburn.jpg" alt="">
+          <h1>LAMBURN FREE</h1>
+          <h4>Firebase App to demonstrate C.R.U.D 🚀</h4>
         </div>
         <h2>Reviews</h2>
-        <!-- TODO 3, Create A Simple Form -->
+        
+        
+        <!-- 3, Create A Simple Form ----(DONE) --> 
+
+          <h4>CREATE/UPDATE review</h4>
+          <form action="" id="reviewForm">
+            <input type="hidden" id="hiddenId">
+            <input type="text" id="fullName" placeholder="Full Name">
+            <br>
+            <br>
+            <textarea name="" id="message" placeholder="Write Something" cols="0" rows="0"></textarea>
+            <br>
+            <br>
+            <button type="submit">Add/Update review</button>
+          </form>
 
         <br/>
-        <!-- TODO 5, Add Container To Render Reviews -->
+        <!-- 5, Add Container To Render Reviews -->
+        <div class="container" id="renderReviews">
+          <h4>READ/DELETE REVIEWS</h4>
+          <!-- we will append each post to the ul below as an li -->
+          <ul id="reviews"> 
+
+          </ul>
+
+        </div>
 
       </div>
-      <!-- TODO 1, add FireBase CDN -->
+      <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
       <script src="main.js"></script>
       <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     </body>

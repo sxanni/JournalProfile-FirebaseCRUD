@@ -4,8 +4,22 @@ body {
   background-color: #FDFDFD;
 }
 
-div, input, a, button, textarea, ul, li {
+div, input, a, textarea, ul, li {
   box-sizing: border-box;
+}
+button{
+  margin-top: 10px;
+box-sizing: border-box;
+padding: 0.2rem 0.6rem 0.2rem;
+/* border: 8px; */
+border-radius:5px ;
+background-color: black;
+color: #FDFDFD;
+cursor:pointer;
+}
+
+button:hover{
+  background-color: darkgray;
 }
 
 .container {
@@ -62,6 +76,10 @@ textarea {
 }
 
 .header img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  /* object-position: 20% 10%; */
   border-radius: 50%;
   box-shadow: 0 1px 1px rgba(0,0,0,.1),0 1px 1px rgba(0,0,0,.1);
 }
